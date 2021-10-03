@@ -13,6 +13,7 @@ body {
 
 
 .contact__item {
+  position: relative;
   list-style-type: none;
   margin: 10px;
   border: 1px solid rgba(138, 138, 138, 0.431);
@@ -27,14 +28,15 @@ body {
 }
 
 .js-remove-btn {
-  margin-left: 310px;
-  transform: translateY(-50px);
+  position: absolute;
   background-color: #fff;
   border: none;
   background-color: rgba(0, 0, 0, 0.281);
   border-radius: 5px;
   padding-bottom: 2px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.575);
+  right: 15px;
+  top: 15px;
 }
 
 .js-remove-btn:active {
