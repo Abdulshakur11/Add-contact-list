@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: rgb(124, 124, 124);
+}
+
+
+.contact__item {
+  list-style-type: none;
+  margin: 10px;
+  border: 1px solid rgba(138, 138, 138, 0.431);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: -0px 5px 15px rgb(51, 51, 51);
+  background-color: rgba(255, 255, 255, 0.877);
+}
+
+.form-control {
+  box-shadow: -0px 5px 15px #333;
+}
+
+.js-remove-btn {
+  margin-left: 310px;
+  transform: translateY(-50px);
+  background-color: #fff;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.281);
+  border-radius: 5px;
+  padding-bottom: 2px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.575);
+}
+
+.js-remove-btn:active {
+  transition: all 0.1s ease;
+  box-shadow: none;
+}
+
+.close-img {
+  width: 15px;
+  height: 25px;
+}
