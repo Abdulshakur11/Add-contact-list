@@ -16,8 +16,6 @@ var elSaveBtn = $_(".save-btn");
 var elDeleteBtn = $_('.js-remove-btn');
 
 
-// console.log(elContactResultList);
-
 var createContactObject = function (name, surname, number, relationship) {
   return {
     name,
