@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add contact</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="py-4">
+    <div class="container">
+      <h1 class="text-center">Contact book</h1>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <section class="col-md-5 mb-5 mb-md-0">
+          <h2 class="h4 mb-4">Add new contact</h2>
+
+          <form class="js-new-contact-form" method="POST">
+
+            <div class="input-group mb-3">
+              <input class="form-control js-new-contact-form__name-input" type="text" name="name" aria-label="Name"
+                placeholder="Name" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <input class="form-control js-new-contact-form__surname-input" type="text" name="Surname"
+                aria-label="Surname" placeholder="Surname" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <input class="form-control js-new-contact-form__contact-input" type="text" name="Contact"
+                aria-label="Contact" placeholder="Contact" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <input class="form-control js-new-contact-form__relationship-input" type="tel" name="Relationship"
+                aria-label="Relationship" placeholder="Relationship" required>
+            </div>
+
+            <button class="btn btn-warning save-btn">Save</button>
+          </form>
+          <p class="have-or-note"></p>
+        </section>
+
+        <section class="col-md-5">
+          <h2 class="h4 mb-4">Contacts' list</h2>
+
+          <ul class="contacts list-group">
+            <li class="contact__item">
+              <div class="contact__fullname">Palonchi Pistonchiyev</div>
+              <div class="contact__relationship small">Qarindosh</div>
+              <a class="contact__phone-number" href="tel:+998901234567">+998901234567</a>
+              <button class="js-remove-btn">
+                <img class="close-img" src="./images/close.svg" alt="Close-btn" width="15" height="25">
+              </button>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script src="js/pokemons.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="./js/main.js"></script>
+  <!-- <script src="js/index.js"></script> -->
+</body>
+
+</html>
